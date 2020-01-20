@@ -24,7 +24,7 @@ git status
 git add <your-files>
 git commit -m 'your message'
 git push -u origin branch-name
-<pre>
+</pre>
 
 Okay. There is a lot of stuff going on here. Let’s break it down one by one.
 Once you’ve made some updates to add the new feature to your local branch-name and you want to upload the changes to the remote branch in order to be merged to the remote master branch later.
@@ -35,11 +35,18 @@ This command pushes branch-name to the central repository (origin), and the -u f
 Great! Now that you’ve successfully added a new feature and pushed the changes to your remote branch.
 You’re so proud of your contribution and you want to get feedback from your team members before merging the remote branch with the remote master branch. This gives other team members an opportunity to review the changes before they become a part of the main codebase.
 You can create a pull request on Bitbucket.
+<li>
 Now your team members have taken a look at your code and decided to require some other changes from you before the code can be merge into the main codebase — master branch.
+  <pre>
 git status
 git add <your-files>
 git commit -m 'your message'
 git push
+</pre>
+
 So you follow the same steps as before to make changes, commits and finally push the updates to the central repository. Once you’ve used git push , your updates will be automatically shown in the pull request. And that’s it!
+</li>
+<p>
 If anyone else has made changes in the destination to the same code you touched, you will have merge conflicts, and this is common in the normal workflow. You can see here on how to resolve merge conflicts.
 Once everything is done without problems, your updates will be finally merged with the central repository into the master branch. Congratulations!
+  </p>
