@@ -5,7 +5,7 @@ The Feature Branch Workflow assumes a central repository, and master represents 
 Instead of committing directly on their local master branch, developers create a new branch every time they start work on a new feature.
 Feature branches can (and should) be pushed to the central repository. This makes it possible to share a feature with other developers without touching any official code — master branch in this case.
 Before you start doing anything, type git remote -v to make sure your workspace is pointing to the remote repository that you want to work with.
-<p>
+
 1. Start with the master branch and create a new branch
 """
 git checkout master
@@ -14,7 +14,7 @@ git checkout -b branch-name
 """
 Provided that the master branch is always maintained and updated, you switch to the local master branch and pull the latest commits and code to your local master branch.
 Let’s assume that you want to create a local branch to add a new feature to the code and upload the changes later to the remote repository.
-Once you get the latest code to your local master branch, let’s create and checkout a new branch called branch-name and all changes will be made on this local branch. This means your local master branch will not be affected whatsoever. </p>
+Once you get the latest code to your local master branch, let’s create and checkout a new branch called branch-name and all changes will be made on this local branch. This means your local master branch will not be affected whatsoever. 
 2. Update, Add, Commit and Push your changes to the remote repository
 git status
 git add <your-files>
