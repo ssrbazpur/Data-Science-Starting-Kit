@@ -5,7 +5,7 @@
 The Feature Branch Workflow assumes a central repository, and master represents the official project history.
 Instead of committing directly on their local master branch, developers create a new branch every time they start work on a new feature.
 Feature branches can (and should) be pushed to the central repository. This makes it possible to share a feature with other developers without touching any official code — master branch in this case.
-Before you start doing anything, type git remote -v to make sure your workspace is pointing to the remote repository that you want to work with.
+Before you start doing anything, type git remote -v to make sure your workspace is pointing to the remote repository that you want to work with..
   </p>
 <ol>
   <li>
